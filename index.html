@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is test demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+
+<body onload="Captcha();">
+<div class="capt">
+    <h2 type="text" id="mainCaptcha"></h2>
+    <p><input type="button" id="refresh" onclick="Captcha();"/></p>
+    <input type="text" id="txtInput"/>
+    <input id="Button1" type="button" value="Submit" onclick="ValidCaptcha();"/>
+    <p id="wrongMessage"></p>
+</div>
+
+
+</body>
+</html>
